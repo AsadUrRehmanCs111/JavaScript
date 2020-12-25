@@ -135,9 +135,9 @@ console.log(ageSum2)
 const totalYear1 = companies.reduce(function (total, company) {
     return total + (company.end - company.start);
 }, 0);
-
+console.log(totalYear1);
 const totalYears2 = companies.reduce((total, company) => total + (company.end - company.start), 0);
-
+console.log(totalYears2);
 // Combine Methods
 
 const combined = ages
@@ -147,3 +147,4 @@ const combined = ages
     .reduce((a, b) => a + b, 0);
 
 console.log(combined);
+
